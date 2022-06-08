@@ -397,7 +397,7 @@ def menu():
     elif pm in ['16','016','0016','p']:gabung_sandi.append('Elo');teman_teman()
     elif pm in ['17','017','0017','q']:tempel_sandi.append('Dasar Bocah Goblok');not_available('Cek Hasil Crack')
     elif pm in ['18','018','0018','r']:gabung_sandi.append('Gaakan Bisa');not_available('Cek Opsi Akun Hasil Crack')
-    elif pm in ['19','019','0019','s']:gabung_sandi.append('SC Ini');useragent()
+    elif pm in ['19','019','0019','s']:gabung_sandi.append('SC Ini');ugen()
     elif pm in ['20','020','0020','t']:
       tempel_sandi.append('Dasar Bocah Goblok');membuat_sc()
     elif pm in ['0','00','000','z']:
