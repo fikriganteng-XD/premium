@@ -403,7 +403,7 @@ def menu():
     elif pm in ['0','00','000','z']:
       mlaku(f"{A}╠══[•] Terima Kasih Sudah Menggunakan Tools Dari Saya")
       mlaku(f"{A}╠══[•] Semoga Hari Mu Menyenangkan")
-      mlaku('%s╚══[%s!%s] %sSampai Jumpa %s%s%s'%(M,P,M,A,M,P,M));bersih();exit()
+      mlaku('%s╚══[%s!%s] %sSampai Jumpa %s%s%s'%(M,P,M,A,M,P,M));exit()
     else:jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P));menu()
 
 
