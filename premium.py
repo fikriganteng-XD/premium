@@ -278,7 +278,6 @@ def login():
     os.system("clear")
     banner()
     defaultua()
-    bersih()
     mkdir_data_login()
     print('%s║'%(B))
     print('%s╠══[%s•%s] %sJangan Gunakan Akun Pribadi%s!%s!%s'%(M,P,M,P,M,P,M))
@@ -1586,5 +1585,6 @@ def membuat_sc():
 ### Trigger
 if __name__=='__main__':
     resik()
+    bersih()
     mkdir_data_login()
     menu()
