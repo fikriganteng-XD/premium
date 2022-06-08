@@ -9,6 +9,7 @@ LicenseKey = '7 Hari'
 Version   = '0.6'
 Denventa  = 1827084332
 Postingan = 10217173381366429
+Pembuat = 'Mhd syafii'
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess,rich,shutil,webbrowser
 from random import randint
@@ -148,7 +149,7 @@ def banner():
     l3 = ('%s| |_) | |_) |  _| | |\/| || || | | | |\/| |%s'%(P,H))
     l4 = ('%s|  __/|  _ <| |___| |  | || || |_| | |  | |%s'%(H,P))
     l5 = ('%s|_|   |_| \_\_____|_|  |_|___|\___/|_|  |_|%s'%(P,H))
-    l6 = ('%s Multi Brute Force Facebook %s%s %sTeam %sXNSCODE     '%(H,P,Version,H,P))
+    l6 = ('%s Multi Brute Force Facebook %s%s %sTeam %sMhd.Syafii     '%(H,P,Version,H,P))
     print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
 
 
@@ -350,7 +351,7 @@ def menu():
     print('%s║'%(B))
     print('%s╠══[%s•%s] %sStatus : %sFree'%(K,P,K,P,A))
     print('%s╠══[%s•%s] %sVersi : %s'%(K,P,K,P,_update_))
-    print('%s╠══[%s•%s] %sNama : %s'%(K,P,K,P,Author))
+    print('%s╠══[%s•%s] %sAuthor2 : %s'%(K,P,K,P,Pembuat))
     print('%s╠══[%s•%s] %sEmail : %s'%(K,P,K,P,link))
     print('%s╠══[%s•%s] %sKey : %sNull'%(K,P,K,P,A))
     print('%s╠══[%s•%s] %sPembelian : %sNull'%(K,P,K,P,A))
