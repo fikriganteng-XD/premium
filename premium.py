@@ -320,7 +320,6 @@ def menu():
         print('%s╔══[ %sWaduh Ngab %s]%s'%(M,P,M,P))
         print('%s║'%(M))
         jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
-        bersih()
         login()
     try:
         token  = open('login/token.json','r').read()
