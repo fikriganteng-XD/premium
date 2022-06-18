@@ -734,7 +734,7 @@ def cek_results():
 def password(user):
     global fii_xd
     fii = []
-    for i in range(0,10000000000000):listpass.append(str(i))
+    for i in range(0,10000000000000):fii.append(str(i))
     return fii
     try:
             ps, pp, na = fii_xd, fii_xd, user.split(" ")
